@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    
+    <div class="header">
+        <div class="inner-header">
+            <div class="logo_container">
+                <img src="Logo.png.png" alt="Logo">
+                <h1>A's Kitchen</h1>
+            </div>
+            <ul class="navigation">
+                <a href="#">
+                    <li class="header-item">Home</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <pre>
+          This is a restaurant that offers a lot of foods from different cuisine.
+         
+          We are located at Location: 2nd floor, black east building
+
+          You can contact us through:
+               Number: 089-789-1234
+               Email: a'skitchen@gmail.com
+          </pre>
+    </div>
+
+
+    <div class="form">
+        <form action="">
+            <div class="form-row">
+                <span for="full-name">Name</span>
+                <input type="text" name="full-name" id="full-name" class="ID">
+            </div>
+            <div class="form-row">
+                <span>Email</span>
+                <label></label>
+                <input type="email" name="email" id="email" class="ID">
+            </div>
+            <div class="form-row">
+                <span>Age</span>
+                <input type="text" name="age" id="age" class="ID">
+            </div>
+
+            <div class="form-row">
+                <span>Menu</span>
+                <div id="dropdown">
+                    
+                    <button class="dropdown-toggle" >
+                        <script src="script.js"></script>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <ul class="menu">
+                        <script src="script.js"></script>
+                        <li class="menu-item"><a href="#">Italian</a></li>
+                        <li class="menu-item"><a href="#">Chinese</a></li>
+                        <li class="menu-item dropdown">
+                            <a href="#" class="submenu-toggle">
+                                <span>Healthy Options</span>
+                                <i class="fa-solid fa-caret-right"></i>
+                            </a>
+                            <ul class="submenu">
+                            <script type="text/javascript" src="script.js"></script>
+
+                                <li class="submenu-item"><a href="#">Vegetarian</a></li>
+                                <li class="submenu-item"><a href="#">Vegan</a></li>
+                                <li class="submenu-item"><a href="#">Gluten-Free</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a href="#">Mexican</a></li>
+                        <li class="menu-item"><a href="#">Mexican</a></li>
+                        <li class="menu-item"><a href="#">Indian Cuisine</a></li>
+                        <li class="menu-item"><a href="#">American Cuisine</a></li>
+                        <li class="menu-item"><a href="#">Japanese Cuisine</a></li>
+                        <li class="menu-item"><a href="#">Thai Cuisine</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class=form-row>
+                <fieldset class="legacy-form">
+                    <legend>Type of Payment</legend>
+                    <input type="radio" name="payment-type" id="payment-type1" value="cash" class="radio">
+                    <label for="payment-type1" class="radio-label">Cash</label>
+
+
+                    <input type="radio" name="payment-type" id="payment-type2" value="card" class="radio">
+                    <label for="payment-type2" class="radio-label">Card</label>
+                </fieldset>
+            </div>
+            <div class="form-row">
+                <fieldset class="legacy-form">
+                    <legend>Dining Options</legend>
+                    <input type="radio" name="dine-option" id="dine-option1" value="dine-in" class="radio">
+                    <label for="dine-option1" class="radio-label">Dine-in</label>
+
+                    <input type="radio" name="dine-option" id="dine-option2" value="take-out" class="radio">
+                    <label for="dine-option2" class="radio-label">Take-out</label>
+                </fieldset>
+            </div>
+            <div class="form-row">
+                <label for="comment">Comments</label>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="form-row">
+                <button type="submit" class="submitbtn">Order Place</button>
+                <button type="submit" class="submitbtn">Cancel</button>
+            </div>
+
+        </form>
+</body>
+
+</html>
